@@ -1,6 +1,6 @@
 # Custo do Plano de Saúde: Análise Estatística dos Fatores Associados e Ações Preventivas
 
-[![Medium](https://img.shields.io/badge/Artigo%20completo-Medium-black?logo=medium&logoColor=white)](https://medium.com/@luizamarchenib/custo-do-plano-de-sa%C3%BAde-an%C3%A1lise-estat%C3%ADstica-dos-fatores-associados-e-a%C3%A7%C3%B5es-preventivas-97eab0e7c24b?postPublishedType=repub)
+[![Medium](https://img.shields.io/badge/Artigo%20completo-Medium-black?logo=medium\&logoColor=white)](https://medium.com/@luizamarchenib/custo-do-plano-de-sa%C3%BAde-an%C3%A1lise-estat%C3%ADstica-dos-fatores-associados-e-a%C3%A7%C3%B5es-preventivas-97eab0e7c24b?postPublishedType=repub)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)
 
@@ -28,19 +28,6 @@ O projeto realizou:
 * Utilização de erros-padrão robustos HC3;
 * Construção de intervalos de confiança para características da população.
 
-## Resultados
-
-Os principais fatores associados ao Custo do Plano de Saúde foram:
-
-* **Tabagismo:** maior associação monetária estimada, com fumantes apresentando custo médio estimado **R$ 2.381,14 superior** ao de não fumantes, mantendo as demais variáveis constantes.
-* **Quantidade de filhos:** cada filho adicional esteve associado a um aumento médio estimado de **R$ 47,35** no custo.
-* **IMC:** cada aumento de um ponto no IMC esteve associado a um aumento médio estimado de **R$ 32,19** no custo.
-* **Idade:** cada ano adicional de idade esteve associado a um aumento médio estimado de **R$ 25,79** no custo.
-
-O modelo final apresentou **R² de aproximadamente 0,75**.
-
-Com base nesses resultados, foram propostas ações preventivas relacionadas principalmente à cessação do tabagismo, promoção de hábitos saudáveis e acompanhamento preventivo ao longo do ciclo de vida.
-
 ## Tecnologias
 
 * Python
@@ -57,8 +44,9 @@ Com base nesses resultados, foram propostas ações preventivas relacionadas pri
 custos_plano_de_saude/
 │
 ├── custos_plano_de_saude.ipynb    # Notebook com a análise dos dados
-├── base_plano_de_saude.xlsx        # Base de dados utilizada no projeto
+├── base_plano_de_saude.xlsx       # Base de dados utilizada no projeto
 ├── requirements.txt                # Dependências do projeto
+```
 
 ## Como reproduzir a análise
 
@@ -74,3 +62,4 @@ cd custos_plano_de_saude
 pip install -r requirements.txt
 jupyter notebook custos_plano_de_saude.ipynb
 ```
+
