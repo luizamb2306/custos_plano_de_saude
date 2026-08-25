@@ -1,8 +1,8 @@
 # Custo do Plano de Saúde: Análise Estatística dos Fatores Associados e Ações Preventivas
 
-[![Medium](https://medium.com/@luizamarchenib/custo-do-plano-de-sa%C3%BAde-an%C3%A1lise-estat%C3%ADstica-dos-fatores-associados-e-a%C3%A7%C3%B5es-preventivas-97eab0e7c24b?postPublishedType=repub)](LINK_MEDIUM)
+[![Medium](https://img.shields.io/badge/Artigo%20completo-Medium-black?logo=medium&logoColor=white)](https://medium.com/@luizamarchenib/custo-do-plano-de-sa%C3%BAde-an%C3%A1lise-estat%C3%ADstica-dos-fatores-associados-e-a%C3%A7%C3%B5es-preventivas-97eab0e7c24b?postPublishedType=repub)
 
-[![Open In Colab](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)](LINK_COLAB)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)
 
 ## Contexto
 
@@ -54,25 +54,23 @@ Com base nesses resultados, foram propostas ações preventivas relacionadas pri
 ## Estrutura do projeto
 
 ```text
-NOME_DO_REPOSITORIO/
+custos_plano_de_saude/
 │
-├── NOME_DO_NOTEBOOK.ipynb    # Notebook com a análise dos dados
-├── base_plano_de_saude.xlsx  # Base de dados utilizada no projeto
-├── requirements.txt           # Dependências do projeto
-```
+├── custos_plano_de_saude.ipynb    # Notebook com a análise dos dados
+├── base_plano_de_saude.xlsx        # Base de dados utilizada no projeto
+├── requirements.txt                # Dependências do projeto
 
 ## Como reproduzir a análise
 
 A maneira mais simples é abrir o notebook diretamente no Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)](LINK_COLAB)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)
 
 Caso prefira executar localmente:
 
 ```bash
 git clone LINK_REPOSITORIO
-cd NOME_DO_REPOSITORIO
+cd custos_plano_de_saude
 pip install -r requirements.txt
-jupyter notebook NOME_DO_NOTEBOOK.ipynb
+jupyter notebook custos_plano_de_saude.ipynb
 ```
-
