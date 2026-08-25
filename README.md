@@ -57,9 +57,9 @@ A maneira mais simples é abrir o notebook diretamente no Google Colab:
 Caso prefira executar localmente:
 
 ```bash
-*git clone LINK_REPOSITORIO
+git clone https://github.com/luizamb2306/custos_plano_de_saude
 cd custos_plano_de_saude
 pip install -r requirements.txt
-jupyter notebook custos_plano_de_saude.ipynb*
+jupyter notebook custos_plano_de_saude.ipynb
 ```
 
