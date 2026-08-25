@@ -1,8 +1,8 @@
 # Custo do Plano de Saúde: Análise Estatística dos Fatores Associados e Ações Preventivas
 
-[![Medium](https://img.shields.io/badge/Artigo%20completo-Medium-black?logo=medium\&logoColor=white)](LINK_MEDIUM)
+[![Medium](https://medium.com/@luizamarchenib/custo-do-plano-de-sa%C3%BAde-an%C3%A1lise-estat%C3%ADstica-dos-fatores-associados-e-a%C3%A7%C3%B5es-preventivas-97eab0e7c24b?postPublishedType=repub)](LINK_MEDIUM)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_COLAB)
+[![Open In Colab](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)](LINK_COLAB)
 
 ## Contexto
 
@@ -65,7 +65,7 @@ NOME_DO_REPOSITORIO/
 
 A maneira mais simples é abrir o notebook diretamente no Google Colab:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK_COLAB)
+[![Open In Colab](https://colab.research.google.com/drive/1TsPMjdWwlFcJZOGfKEtYp2lnOP1vg63d?usp=sharing)](LINK_COLAB)
 
 Caso prefira executar localmente:
 
@@ -76,8 +76,3 @@ pip install -r requirements.txt
 jupyter notebook NOME_DO_NOTEBOOK.ipynb
 ```
 
-## Artigo completo
-
-A descrição detalhada da metodologia, dos resultados e das conclusões está disponível no Medium:
-
-[Custo do Plano de Saúde: Análise Estatística dos Fatores Associados e Ações Preventivas](LINK_MEDIUM)
